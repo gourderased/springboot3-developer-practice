@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="ch.5">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/gourderased/springbootdevelpoer/controller/BlogApiControllerTest.java" afterDir="false" />
+    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="ch.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/BlogApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/BlogService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +237,8 @@
       <workItem from="1688291027019" duration="9182000" />
       <workItem from="1688399254517" duration="1529000" />
       <workItem from="1688458950346" duration="4269000" />
-      <workItem from="1688534354291" duration="4854000" />
+      <workItem from="1688534354291" duration="4949000" />
+      <workItem from="1688624180932" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="ch.5">
       <option name="closed" value="true" />
@@ -254,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688400776649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ch.6">
+      <option name="closed" value="true" />
+      <created>1688542344645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688542344645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +285,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ch.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch.5" />
+    <MESSAGE value="ch.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch.6" />
   </component>
 </project>
