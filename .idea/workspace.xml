@@ -4,21 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="ch.7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/UserApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/UserViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/AddUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/reository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="gitignore 수정">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/gourderased/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/gourderased/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/reository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/reository/BlogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/BlogViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/AddUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/ArticleListViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/ArticleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/ArticleViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/dto/UpdateArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/reository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/reository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdevelpoer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/gourderased/springbootdevelpoer/controller/BlogApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/gourderased/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +62,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot3-developer" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot3-developer" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot3-developer" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -66,14 +74,28 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gourderased&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a6c3cf55-d4f0-4d1c-aa07-7147c87542c8" />
+        <option name="url" value="https://github.com/gourderased/springboot3-developer-practice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -85,6 +107,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="17" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2RYm6DE90WkVkOBPcseqN3lSjx1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,33 +160,17 @@
       <recent name="me.gourderased.springbootdevelpoer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootDeveloperApplication (1)">
-    <configuration name="BlogApiControllerTest.addArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot3-developer.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.gourderased.springbootdevelpoer.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="me.gourderased.springbootdevelpoer.controller" />
-      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdevelpoer.controller.BlogApiControllerTest" />
-      <option name="METHOD_NAME" value="addArticle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TokenApiControllerTest">
     <configuration name="BlogApiControllerTest.deleteArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot3-developer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.gourderased.springbootdevelpoer.controller.*" />
+          <option name="PATTERN" value="me.gourderased.springbootdeveloper.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.gourderased.springbootdevelpoer.controller" />
-      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdevelpoer.controller.BlogApiControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdeveloper.controller.BlogApiControllerTest" />
       <option name="METHOD_NAME" value="deleteArticle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -172,12 +181,12 @@
       <module name="springboot3-developer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.gourderased.springbootdevelpoer.controller.*" />
+          <option name="PATTERN" value="me.gourderased.springbootdeveloper.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.gourderased.springbootdevelpoer.controller" />
-      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdevelpoer.controller.BlogApiControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdeveloper.controller.BlogApiControllerTest" />
       <option name="METHOD_NAME" value="findArticle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -188,24 +197,39 @@
       <module name="springboot3-developer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.gourderased.springbootdevelpoer.controller.*" />
+          <option name="PATTERN" value="me.gourderased.springbootdeveloper.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.gourderased.springbootdevelpoer.controller" />
-      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdevelpoer.controller.BlogApiControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdeveloper.controller.BlogApiControllerTest" />
       <option name="METHOD_NAME" value="updateArticle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootDeveloperApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot3-developer.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="me.gourderased.springbootdevelpoer.SpringBootDeveloperApplication" />
+    <configuration name="TokenApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot3-developer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.gourderased.springbootdevelpoer.*" />
+          <option name="PATTERN" value="me.gourderased.springbootdeveloper.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.gourderased.springbootdeveloper.controller" />
+      <option name="MAIN_CLASS_NAME" value="me.gourderased.springbootdeveloper.controller.TokenApiControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot3-developer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.gourderased.springbootdeveloper.SpringBootDeveloperApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.gourderased.springbootdeveloper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +239,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootDeveloperApplication (1)" />
+        <item itemvalue="JUnit.TokenApiControllerTest" />
         <item itemvalue="JUnit.BlogApiControllerTest.updateArticle" />
         <item itemvalue="JUnit.BlogApiControllerTest.deleteArticle" />
         <item itemvalue="JUnit.BlogApiControllerTest.findArticle" />
-        <item itemvalue="JUnit.BlogApiControllerTest.addArticle" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +289,11 @@
       <workItem from="1690955563495" duration="97000" />
       <workItem from="1690959687655" duration="6000" />
       <workItem from="1691336160760" duration="4104000" />
+      <workItem from="1693746368418" duration="1647000" />
+      <workItem from="1693791375041" duration="4066000" />
+      <workItem from="1693811544779" duration="2068000" />
+      <workItem from="1693834252991" duration="6388000" />
+      <workItem from="1693844432752" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="ch.5">
       <option name="closed" value="true" />
@@ -299,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690709082122</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitignore 수정">
+      <option name="closed" value="true" />
+      <created>1693844516359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693844516359</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +362,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -342,6 +378,7 @@
     <MESSAGE value="ch.5" />
     <MESSAGE value="ch.6" />
     <MESSAGE value="ch.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch.7" />
+    <MESSAGE value="gitignore 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 수정" />
   </component>
 </project>
