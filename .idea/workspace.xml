@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="ch.8 ~ 9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/WebOAuthSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/oauth/OAuth2SuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/oauth/OAuth2UserCustomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/oauthLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/ArticleViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/gourderased/springbootdeveloper/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
-    </list>
+    <list default="true" id="b832f8aa-1ea6-4bb4-80ea-868b112da090" name="Changes" comment="ch.10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +268,7 @@
       <workItem from="1694124591319" duration="437000" />
       <workItem from="1694316989201" duration="1255000" />
       <workItem from="1694353051141" duration="11148000" />
-      <workItem from="1694517522413" duration="603000" />
+      <workItem from="1694517522413" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="ch.5">
       <option name="closed" value="true" />
@@ -344,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693844584726</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ch.10">
+      <option name="closed" value="true" />
+      <created>1694518179770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694518179770</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +371,7 @@
     <MESSAGE value="ch.7" />
     <MESSAGE value="gitignore 수정" />
     <MESSAGE value="ch.8 ~ 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch.8 ~ 9" />
+    <MESSAGE value="ch.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch.10" />
   </component>
 </project>
