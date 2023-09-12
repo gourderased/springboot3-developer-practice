@@ -1,7 +1,7 @@
 package me.gourderased.springbootdeveloper.service;
 
 import lombok.RequiredArgsConstructor;
-import me.gourderased.springbootdeveloper.domain.RefreshToken;
+ import me.gourderased.springbootdeveloper.domain.RefreshToken;
 import me.gourderased.springbootdeveloper.repository.RefreshTokenRepository;
 import org.springframework.stereotype.Service;
 
